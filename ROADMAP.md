@@ -26,7 +26,11 @@ Three coordinates define the destination:
 
 This roadmap supersedes Evolution 3 entirely. Where Evolution 3 outlined the Economic Layer as a single evolution, the Workcraft roadmap structures it as three phases with explicit dependency ordering and TIO role assignments.
 
-**Bioregional Coordination:** The Workcraft federation model — autonomous hubs, bridge covenants, portable identity, Practice Communities — was designed for organizational networks. Kevin Owocki's Bioregional Swarms PRD (2026-02-24) demonstrates that the same architecture applies directly to ecological coordination at watershed scale. The Colorado River Basin — 40M people, 7 states, dozens of tribes and NGOs — faces a coordination problem structurally identical to the multi-organization federation Workcraft Phase 3 solves. Phase 4 of this roadmap treats Bioregional Coordination Nodes as the first external deployment class of the Workcraft protocol: owockibot (ERC-8004 agent), the Colorado River Basin hub, and the AI sensing swarm as a concrete Phase 3 pilot before the general federation ships.
+**Bioregional Coordination:** The nation-state is an awkward container for ecological and economic problems. Watersheds do not respect borders. The most meaningful unit of coordination is not the country, but the bioregion — defined by watersheds, climate, soil, flora, fauna, and the human cultures that co-evolved with them. Bioregions create shared fate: people upstream and downstream are connected whether they acknowledge it or not.
+
+Kevin Owocki (with @omniharmonic and @ethereumboulder collaborators, February 2026) identified three pillars for acting on that shared fate: **Bioregional Financing Facilities** (capital allocation rooted in place; returns measured in ecological health and social cohesion, not only financial yield), **AI Swarms** ("decision support for the commons, not centralized planners" — distributed intelligence that senses, analyzes, and coordinates without replacing human judgment), and **Knowledge Commons** ("owned by no one, used by everyone" — collective memory that compounds over time).
+
+These three pillars map directly onto what Workcraft already builds: the patronage engine + venture royalties (Financing Facility), the agent participation layer + graduated authority (AI Swarms), and the knowledge chain + Practice Communities (Knowledge Commons). Phase 4 treats Bioregional Coordination Nodes as the first external deployment class of the Workcraft protocol: owockibot (ERC-8004 agent), the Colorado River Basin hub, and the AI sensing swarm as a concrete Phase 3 pilot — proving that what Workcraft builds for organizational networks generalizes to ecological coordination at watershed scale.
 
 ---
 
@@ -555,6 +559,8 @@ The economic layer specialized for ecological coordination. Extends the co-op.us
 **Owner:** PCE + SA + AEE  
 **Depends on:** WC-028 (Agent Participation), WC-042 (Financing Facility)  
 **Status:** ⏳ Planned
+
+Agents in a bioregional hub are "decision support for the commons, not centralized planners" (Owocki, 2026). The graduated authority model operationalizes that distinction: agents can sense, alert, and recommend freely; they can act financially only within limits set by community governance; they can never exceed what the commons has explicitly authorized. This is not a technical constraint — it is the political architecture that makes AI coordination trustworthy to communities who have good reason to distrust centralized systems.
 
 Extends WC-028 Agent Participation with a financial authority tier system. Agents earn authority through demonstrated good judgment — a governance parameter, not a code constant. owockibot begins at Advisory level and graduates to Bounded authority as its track record accumulates.
 
